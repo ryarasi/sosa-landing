@@ -107,7 +107,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Save to Airtable
-    const record = await base(process.env.AIRTABLE_TABLE_NAME!).create({
+    await base(process.env.AIRTABLE_TABLE_NAME!).create({
       Name: name,
       Email: email,
       Country: country,

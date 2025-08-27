@@ -100,7 +100,7 @@ export default function WaitlistForm() {
           Welcome to SoSA!
         </h3>
         <p className="text-lg text-sosa-gray">
-          Thank you for your interest. We'll review your application and send you an invitation soon.
+          Thank you for your interest. We&apos;ll review your application and send you an invitation soon.
         </p>
       </div>
     );

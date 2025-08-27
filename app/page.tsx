@@ -19,7 +19,7 @@ export default function Home() {
               Join the Movement
             </h2>
             <p className="text-lg text-sosa-gray mb-12">
-              Be part of the first decentralized think tank shaping tomorrow's policies
+              Be part of the first decentralized think tank shaping tomorrow&apos;s policies
             </p>
             <WaitlistForm />
           </div>
