@@ -23,8 +23,13 @@ const CONSENT_EXPIRY_DAYS = 365;
 
 // Check if user is in EU/UK/Switzerland
 export const isEUUser = (): boolean => {
+  // Return false during SSR
+  if (typeof window === 'undefined') {
+    return false;
+  }
+  
   // Check for simulation flag first (for testing)
-  if (typeof window !== 'undefined' && localStorage.getItem('sosa_simulate_eu') === 'true') {
+  if (localStorage.getItem('sosa_simulate_eu') === 'true') {
     return true;
   }
   
@@ -46,6 +51,11 @@ export const isEUUser = (): boolean => {
 
 // Get stored consent
 export const getStoredConsent = (): ConsentState | null => {
+  // Return null during SSR
+  if (typeof window === 'undefined') {
+    return null;
+  }
+  
   try {
     const stored = localStorage.getItem(CONSENT_KEY);
     if (!stored) return null;
@@ -70,6 +80,11 @@ export const getStoredConsent = (): ConsentState | null => {
 
 // Save consent preferences
 export const saveConsent = (preferences: ConsentPreferences): void => {
+  // Return early during SSR
+  if (typeof window === 'undefined') {
+    return;
+  }
+  
   const consent: ConsentState = {
     hasConsented: true,
     preferences: {
@@ -89,6 +104,11 @@ export const saveConsent = (preferences: ConsentPreferences): void => {
 
 // Revoke consent
 export const revokeConsent = (): void => {
+  // Return early during SSR
+  if (typeof window === 'undefined') {
+    return;
+  }
+  
   localStorage.removeItem(CONSENT_KEY);
   
   // Clear any analytics cookies
@@ -113,6 +133,11 @@ export const hasConsent = (type: ConsentType): boolean => {
 
 // Clear analytics cookies
 const clearAnalyticsCookies = (): void => {
+  // Return early during SSR
+  if (typeof window === 'undefined' || typeof document === 'undefined') {
+    return;
+  }
+  
   // Clear Microsoft Clarity cookies
   const cookies = document.cookie.split(';');
   

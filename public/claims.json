@@ -1,0 +1,482 @@
+[
+  {
+    "id": "sosa-001",
+    "type": "core",
+    "claim": "We are the <a data-claim=\"sosa-002\">Society of Societal Architects</a>",
+    "category": "identity"
+  },
+  {
+    "id": "sosa-002",
+    "type": "definition",
+    "claim": "A <a data-claim=\"sosa-003\">decentralized think tank</a> architecting the <a data-claim=\"sosa-004\">freedom infrastructure</a> for <a data-claim=\"sosa-005\">unified human civilization</a>",
+    "category": "identity"
+  },
+  {
+    "id": "sosa-003",
+    "type": "principle",
+    "claim": "Decentralized governance means <a data-claim=\"sosa-006\">no single entity</a> controls our direction",
+    "category": "governance"
+  },
+  {
+    "id": "sosa-004",
+    "type": "vision",
+    "claim": "Freedom infrastructure enables every individual to be their <a data-claim=\"sosa-007\">own sovereign leader</a>",
+    "category": "freedom"
+  },
+  {
+    "id": "sosa-005",
+    "type": "vision",
+    "claim": "A unified human civilization where <a data-claim=\"sosa-008\">sovereignty</a> and <a data-claim=\"sosa-009\">coordination</a> coexist",
+    "category": "civilization"
+  },
+  {
+    "id": "sosa-006",
+    "type": "principle",
+    "claim": "The moment any individual or group gains controlling influence, <a data-claim=\"sosa-010\">we have failed</a>",
+    "category": "governance"
+  },
+  {
+    "id": "sosa-007",
+    "type": "belief",
+    "claim": "Technology now enables <a data-claim=\"sosa-011\">individual sovereignty</a> without sacrificing <a data-claim=\"sosa-012\">societal participation</a>",
+    "category": "freedom"
+  },
+  {
+    "id": "sosa-008",
+    "type": "definition",
+    "claim": "Sovereignty: The ability to pursue your <a data-claim=\"sosa-013\">highest potential</a> without external coercion",
+    "category": "freedom"
+  },
+  {
+    "id": "sosa-009",
+    "type": "principle",
+    "claim": "Coordination supersedes competition through <a data-claim=\"sosa-014\">aligned incentives</a>",
+    "category": "coordination"
+  },
+  {
+    "id": "sosa-010",
+    "type": "warning",
+    "claim": "Centralized systems invariably attract <a data-claim=\"sosa-015\">corruption</a> and constrain <a data-claim=\"sosa-004\">freedom</a>",
+    "category": "governance"
+  },
+  {
+    "id": "sosa-011",
+    "type": "bet",
+    "claim": "We bet that <a data-claim=\"sosa-016\">distributed governance</a> will outperform centralized control",
+    "category": "governance"
+  },
+  {
+    "id": "sosa-012",
+    "type": "vision",
+    "claim": "You contribute your unique genius; the system <a data-claim=\"sosa-017\">recognizes and rewards</a> automatically",
+    "category": "contribution"
+  },
+  {
+    "id": "sosa-013",
+    "type": "mission",
+    "claim": "Every human pursuing their <a data-claim=\"sosa-018\">spiritual journey</a> and <a data-claim=\"sosa-019\">life purpose</a>",
+    "category": "humanity"
+  },
+  {
+    "id": "sosa-014",
+    "type": "mechanism",
+    "claim": "When you pursue your highest expression, <a data-claim=\"sosa-020\">humanity benefits</a>",
+    "category": "incentives"
+  },
+  {
+    "id": "sosa-015",
+    "type": "truth",
+    "claim": "Power structures maintain control through <a data-claim=\"sosa-021\">information asymmetry</a>",
+    "category": "information"
+  },
+  {
+    "id": "sosa-016",
+    "type": "architecture",
+    "claim": "Millions of sovereigns coordinating through <a data-claim=\"sosa-022\">transparent protocols</a>",
+    "category": "governance"
+  },
+  {
+    "id": "sosa-017",
+    "type": "mechanism",
+    "claim": "No boss decides your worth. No bureaucrat controls your access. <a data-claim=\"sosa-023\">No donor influences</a> your direction",
+    "category": "freedom"
+  },
+  {
+    "id": "sosa-018",
+    "type": "humanity",
+    "claim": "The poet contributes as much as the programmer. The mystic as much as the <a data-claim=\"sosa-024\">mathematician</a>",
+    "category": "contribution"
+  },
+  {
+    "id": "sosa-019",
+    "type": "purpose",
+    "claim": "This is not utopia. This is <a data-claim=\"sosa-025\">engineered freedom</a>",
+    "category": "vision"
+  },
+  {
+    "id": "sosa-020",
+    "type": "outcome",
+    "claim": "Individual benefit perfectly aligns with <a data-claim=\"sosa-026\">collective progress</a>",
+    "category": "incentives"
+  },
+  {
+    "id": "sosa-021",
+    "type": "bet",
+    "claim": "We bet that <a data-claim=\"sosa-027\">truthful information</a>, not force or wealth, should be the foundation",
+    "category": "information"
+  },
+  {
+    "id": "sosa-022",
+    "type": "transparency",
+    "claim": "Every decision, every transaction, every research must be <a data-claim=\"sosa-028\">auditable forever</a>",
+    "category": "transparency"
+  },
+  {
+    "id": "sosa-023",
+    "type": "independence",
+    "claim": "Research outcomes cannot be influenced by <a data-claim=\"sosa-029\">sponsors or interest groups</a>",
+    "category": "integrity"
+  },
+  {
+    "id": "sosa-024",
+    "type": "equality",
+    "claim": "Contribution isn't narrow - every form of <a data-claim=\"sosa-030\">genuine value</a> is recognized",
+    "category": "contribution"
+  },
+  {
+    "id": "sosa-025",
+    "type": "implementation",
+    "claim": "Freedom through <a data-claim=\"sosa-031\">cryptographic guarantees</a> and <a data-claim=\"sosa-032\">economic alignment</a>",
+    "category": "technology"
+  },
+  {
+    "id": "sosa-026",
+    "type": "harmony",
+    "claim": "The false choice between <a data-claim=\"sosa-033\">serving yourself</a> or <a data-claim=\"sosa-034\">serving others</a> becomes obsolete",
+    "category": "incentives"
+  },
+  {
+    "id": "sosa-027",
+    "type": "integrity",
+    "claim": "Information integrity <a data-claim=\"sosa-035\">cryptographically guaranteed</a>, no fact-checkers required",
+    "category": "information"
+  },
+  {
+    "id": "sosa-028",
+    "type": "principle",
+    "claim": "Privacy for individuals, <a data-claim=\"sosa-036\">transparency for the system</a>",
+    "category": "transparency"
+  },
+  {
+    "id": "sosa-029",
+    "type": "independence",
+    "claim": "Funding through <a data-claim=\"sosa-037\">decentralized mechanisms</a>, not centralized donors",
+    "category": "funding"
+  },
+  {
+    "id": "sosa-030",
+    "type": "recognition",
+    "claim": "Membership isn't bought or inherited - it's <a data-claim=\"sosa-038\">earned through contribution</a>",
+    "category": "membership"
+  },
+  {
+    "id": "sosa-031",
+    "type": "technology",
+    "claim": "Smart contracts implement <a data-claim=\"sosa-039\">incorruptible governance</a>",
+    "category": "technology"
+  },
+  {
+    "id": "sosa-032",
+    "type": "economics",
+    "claim": "Token economics where <a data-claim=\"sosa-040\">genuine contribution</a> creates value",
+    "category": "economics"
+  },
+  {
+    "id": "sosa-033",
+    "type": "false-dichotomy",
+    "claim": "Current systems force you to choose: <a data-claim=\"sosa-041\">personal gain</a> or <a data-claim=\"sosa-042\">collective good</a>",
+    "category": "problem"
+  },
+  {
+    "id": "sosa-034",
+    "type": "solution",
+    "claim": "Properly designed incentives make this <a data-claim=\"sosa-043\">tension obsolete</a>",
+    "category": "solution"
+  },
+  {
+    "id": "sosa-035",
+    "type": "verification",
+    "claim": "The system itself ensures <a data-claim=\"sosa-044\">information integrity</a>",
+    "category": "information"
+  },
+  {
+    "id": "sosa-036",
+    "type": "transparency",
+    "claim": "Radical transparency creates <a data-claim=\"sosa-045\">systemic immunity</a> to deception",
+    "category": "transparency"
+  },
+  {
+    "id": "sosa-037",
+    "type": "funding",
+    "claim": "Quadratic funding ensures <a data-claim=\"sosa-046\">democratic resource allocation</a>",
+    "category": "funding"
+  },
+  {
+    "id": "sosa-038",
+    "type": "meritocracy",
+    "claim": "Reputation built through <a data-claim=\"sosa-047\">verifiable impact</a>, not proximity to power",
+    "category": "reputation"
+  },
+  {
+    "id": "sosa-039",
+    "type": "governance",
+    "claim": "Governance by <a data-claim=\"sosa-048\">mathematical consensus</a>, not political maneuvering",
+    "category": "governance"
+  },
+  {
+    "id": "sosa-040",
+    "type": "value",
+    "claim": "Value flows to those who <a data-claim=\"sosa-049\">create real impact</a>",
+    "category": "economics"
+  },
+  {
+    "id": "sosa-041",
+    "type": "problem",
+    "claim": "Centralized systems optimize for <a data-claim=\"sosa-050\">control and extraction</a>",
+    "category": "problem"
+  },
+  {
+    "id": "sosa-042",
+    "type": "solution",
+    "claim": "Distributed systems optimize for <a data-claim=\"sosa-051\">resilience and creation</a>",
+    "category": "solution"
+  },
+  {
+    "id": "sosa-043",
+    "type": "evolution",
+    "claim": "We don't destroy governments - we <a data-claim=\"sosa-052\">guide their evolution</a>",
+    "category": "strategy"
+  },
+  {
+    "id": "sosa-044",
+    "type": "truth",
+    "claim": "Truth emerges from <a data-claim=\"sosa-053\">transparent processes</a>, not authorities",
+    "category": "truth"
+  },
+  {
+    "id": "sosa-045",
+    "type": "immunity",
+    "claim": "Better decisions emerge when <a data-claim=\"sosa-054\">information flows freely</a>",
+    "category": "information"
+  },
+  {
+    "id": "sosa-046",
+    "type": "democracy",
+    "claim": "One person, one voice - amplified by <a data-claim=\"sosa-055\">contribution, not capital</a>",
+    "category": "democracy"
+  },
+  {
+    "id": "sosa-047",
+    "type": "impact",
+    "claim": "Measurable societal benefit, not <a data-claim=\"sosa-056\">theoretical abstractions</a>",
+    "category": "impact"
+  },
+  {
+    "id": "sosa-048",
+    "type": "consensus",
+    "claim": "Decisions through <a data-claim=\"sosa-057\">cryptographic proof</a>, not political theater",
+    "category": "governance"
+  },
+  {
+    "id": "sosa-049",
+    "type": "rewards",
+    "claim": "Automatic rewards for <a data-claim=\"sosa-058\">advancing human freedom</a>",
+    "category": "incentives"
+  },
+  {
+    "id": "sosa-050",
+    "type": "extraction",
+    "claim": "Traditional power extracts value; we <a data-claim=\"sosa-059\">create abundance</a>",
+    "category": "economics"
+  },
+  {
+    "id": "sosa-051",
+    "type": "resilience",
+    "claim": "Antifragile systems that <a data-claim=\"sosa-060\">strengthen under stress</a>",
+    "category": "resilience"
+  },
+  {
+    "id": "sosa-052",
+    "type": "strategy",
+    "claim": "Strategic intelligence so compelling, <a data-claim=\"sosa-061\">adoption becomes inevitable</a>",
+    "category": "strategy"
+  },
+  {
+    "id": "sosa-053",
+    "type": "process",
+    "claim": "Open source everything - code, research, <a data-claim=\"sosa-062\">governance decisions</a>",
+    "category": "transparency"
+  },
+  {
+    "id": "sosa-054",
+    "type": "flow",
+    "claim": "Information wants to be free; we're <a data-claim=\"sosa-063\">building the infrastructure</a>",
+    "category": "infrastructure"
+  },
+  {
+    "id": "sosa-055",
+    "type": "equality",
+    "claim": "The farmer in Bangladesh has the same sovereignty as <a data-claim=\"sosa-064\">the banker in Zurich</a>",
+    "category": "equality"
+  },
+  {
+    "id": "sosa-056",
+    "type": "practical",
+    "claim": "Real-world outcomes, not <a data-claim=\"sosa-065\">academic exercises</a>",
+    "category": "impact"
+  },
+  {
+    "id": "sosa-057",
+    "type": "proof",
+    "claim": "Mathematical certainty replaces <a data-claim=\"sosa-066\">institutional trust</a>",
+    "category": "trust"
+  },
+  {
+    "id": "sosa-058",
+    "type": "mission",
+    "claim": "Every line of code is a <a data-claim=\"sosa-067\">declaration of independence</a>",
+    "category": "freedom"
+  },
+  {
+    "id": "sosa-059",
+    "type": "abundance",
+    "claim": "Abundance mindset: there's enough <a data-claim=\"sosa-068\">freedom for everyone</a>",
+    "category": "abundance"
+  },
+  {
+    "id": "sosa-060",
+    "type": "antifragile",
+    "claim": "Attacks make us stronger, not <a data-claim=\"sosa-069\">weaker</a>",
+    "category": "resilience"
+  },
+  {
+    "id": "sosa-061",
+    "type": "inevitable",
+    "claim": "When our solutions obviously work, <a data-claim=\"sosa-070\">resistance becomes futile</a>",
+    "category": "adoption"
+  },
+  {
+    "id": "sosa-062",
+    "type": "radical",
+    "claim": "Radical transparency: even our <a data-claim=\"sosa-071\">mistakes are public</a>",
+    "category": "transparency"
+  },
+  {
+    "id": "sosa-063",
+    "type": "building",
+    "claim": "We're not waiting for the future - <a data-claim=\"sosa-072\">we're architecting it</a>",
+    "category": "action"
+  },
+  {
+    "id": "sosa-064",
+    "type": "universal",
+    "claim": "Global accessibility: freedom isn't <a data-claim=\"sosa-073\">geographically restricted</a>",
+    "category": "global"
+  },
+  {
+    "id": "sosa-065",
+    "type": "results",
+    "claim": "Theories are tested by <a data-claim=\"sosa-074\">real implementation</a>",
+    "category": "practice"
+  },
+  {
+    "id": "sosa-066",
+    "type": "trustless",
+    "claim": "Trust the math, not <a data-claim=\"sosa-075\">the institutions</a>",
+    "category": "trust"
+  },
+  {
+    "id": "sosa-067",
+    "type": "revolution",
+    "claim": "Every governance mechanism is an <a data-claim=\"sosa-076\">escape route from tyranny</a>",
+    "category": "freedom"
+  },
+  {
+    "id": "sosa-068",
+    "type": "infinite",
+    "claim": "Freedom is not zero-sum - <a data-claim=\"sosa-077\">your liberation enables mine</a>",
+    "category": "freedom"
+  },
+  {
+    "id": "sosa-069",
+    "type": "strength",
+    "claim": "Distributed systems have <a data-claim=\"sosa-078\">no single point of failure</a>",
+    "category": "resilience"
+  },
+  {
+    "id": "sosa-070",
+    "type": "excellence",
+    "claim": "Excellence is our strategy; <a data-claim=\"sosa-079\">mediocrity has no place</a>",
+    "category": "excellence"
+  },
+  {
+    "id": "sosa-071",
+    "type": "learning",
+    "claim": "Every failure is data; every success is <a data-claim=\"sosa-080\">a foundation</a>",
+    "category": "iteration"
+  },
+  {
+    "id": "sosa-072",
+    "type": "agency",
+    "claim": "You are not a user - you are <a data-claim=\"sosa-001\">a co-architect</a>",
+    "category": "participation"
+  },
+  {
+    "id": "sosa-073",
+    "type": "borderless",
+    "claim": "Physical centers worldwide: <a data-claim=\"sosa-074\">sovereignty embassies</a>",
+    "category": "physical"
+  },
+  {
+    "id": "sosa-074",
+    "type": "sanctuary",
+    "claim": "True freedom requires both <a data-claim=\"sosa-075\">digital autonomy</a> and <a data-claim=\"sosa-076\">physical sanctuary</a>",
+    "category": "freedom"
+  },
+  {
+    "id": "sosa-075",
+    "type": "digital",
+    "claim": "Code alone won't free us - we need <a data-claim=\"sosa-073\">actual spaces</a>",
+    "category": "physical"
+  },
+  {
+    "id": "sosa-076",
+    "type": "spaces",
+    "claim": "Places where your agency is <a data-claim=\"sosa-077\">architecturally guaranteed</a>",
+    "category": "architecture"
+  },
+  {
+    "id": "sosa-077",
+    "type": "guarantee",
+    "claim": "Not offices or communes - <a data-claim=\"sosa-078\">sovereignty infrastructure</a>",
+    "category": "infrastructure"
+  },
+  {
+    "id": "sosa-078",
+    "type": "infrastructure",
+    "claim": "The infrastructure for freedom doesn't exist - <a data-claim=\"sosa-079\">yet</a>",
+    "category": "future"
+  },
+  {
+    "id": "sosa-079",
+    "type": "building",
+    "claim": "We are building it. <a data-claim=\"sosa-080\">Join us</a>",
+    "category": "action"
+  },
+  {
+    "id": "sosa-080",
+    "type": "invitation",
+    "claim": "Welcome to your <a data-claim=\"sosa-001\">sovereignty</a>",
+    "category": "welcome"
+  }
+]
