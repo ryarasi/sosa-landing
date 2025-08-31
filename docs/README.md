@@ -1,38 +1,88 @@
-# SOSA Documentation
+# Society of Societal Architects (SoSA)
 
-Welcome to the comprehensive documentation for the Society of Societal Architects (SOSA) landing page and platform. This documentation provides detailed implementation guides, design principles, and technical specifications for building a decentralized think tank platform.
+## Overview
 
-## 📚 Documentation Structure
+The Society of Societal Architects exists to architect a better future for humanity through incorruptible research and decentralized governance. We are building the infrastructure for trustworthy policy recommendations that serve the collective good rather than special interests.
 
-### Core Documentation
+## 🎯 Mission & Vision
 
-1. **[Design System](./design-system.md)** - Network State design aesthetics and visual guidelines
-2. **[Technical Architecture](./technical-architecture.md)** - Google Forms + Discord integration details
-3. **[Globe Visualization](./globe-visualization.md)** - D3.js/React-globe.gl implementation guide
-4. **[Messaging Strategy](./messaging-strategy.md)** - Copywriting patterns and trust-building approaches
-5. **[Conversion Optimization](./conversion-optimization.md)** - Waitlist and CTA optimization strategies
-6. **[Implementation Roadmap](./implementation-roadmap.md)** - Step-by-step guide to building the landing page
+### Our Purpose
+SoSA is a decentralized think tank designed to maximize the collaborative efficiency of all those who aspire to build a prosperous future. What makes SoSA unique is that every aspect of the functioning of SoSA is transparent and no central authority decides the course of our enquiry or the outcomes of our research.
 
-## 🎯 Mission Statement
+### The Problem We Solve
+Traditional think tanks and policy research institutions face inherent conflicts:
+- **Funding Bias**: Research outcomes influenced by sponsors
+- **Opacity**: Decision-making processes hidden from public view
+- **Centralization**: Power concentrated in few hands
+- **Misalignment**: Research priorities disconnected from societal needs
 
-SOSA pioneers incorruptible research through decentralized governance, creating trustworthy policy recommendations through collective intelligence and algorithmic transparency.
+### Our Solution
+SoSA introduces a revolutionary approach to policy research through:
+
+1. **Decentralized Governance** - No single entity controls research direction
+2. **Radical Transparency** - All funding sources and methodologies publicly disclosed
+3. **Impact-First Design** - Research topics chosen by societal need
+4. **Global Accessibility** - Enabling worldwide participation in governance
+
+## 🏗️ Technical Architecture
+
+### Current Implementation
+- **Framework**: Next.js 15.5 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Fonts**: JetBrains Mono (claims), Orbitron & Exo 2 (UI)
+- **Analytics**: Microsoft Clarity (with consent)
+- **Deployment**: Optimized for Vercel/Netlify
+
+### Key Components
+- **Claims System**: Interactive navigation through interconnected claims about freedom and sovereignty
+- **Learn More Modal**: Onboarding flow for new architects with Discord invite
+- **Login System**: Member authentication for sovereign spaces
+- **Globe Background**: Visual representation of global coordination
+
+## 📁 Project Structure
+
+```
+sosa-landing/
+├── app/                    # Next.js App Router
+│   ├── api/               # API routes
+│   │   ├── learn-more/    # Discord invite flow
+│   │   ├── auth/login/    # Member authentication
+│   │   └── waitlist/      # Legacy waitlist
+│   ├── privacy/           # Privacy policy
+│   ├── cookies/           # Cookie policy
+│   └── page.tsx           # Homepage with claims
+├── components/            # React components
+│   ├── ClaimsViewer.tsx   # Main claims navigation
+│   ├── LearnMoreModal.tsx # Onboarding modal
+│   ├── LoginModal.tsx     # Authentication modal
+│   └── ...                # Other components
+├── public/
+│   └── claims.json        # Claims data structure
+└── docs/                  # Vision & documentation
+```
 
 ## 🚀 Quick Start
 
-1. Review the [Design System](./design-system.md) to understand the visual language
-2. Check the [Implementation Roadmap](./implementation-roadmap.md) for step-by-step guidance
-3. Set up the technical infrastructure using the [Technical Architecture](./technical-architecture.md) guide
-4. Implement the interactive elements following the [Globe Visualization](./globe-visualization.md) documentation
+```bash
+# Clone the repository
+git clone https://github.com/ryarasi/sosa-landing.git
+cd sosa-landing
 
-## 🏗️ Architecture Overview
+# Install dependencies
+npm install
 
-The SOSA platform combines several key technologies:
+# Run development server
+npm run dev
 
-- **Frontend**: Modern web technologies with dark mode aesthetics
-- **Backend**: Google Apps Script + Make (Integromat) for email workflows
-- **Visualization**: React-globe.gl for interactive network metaphors
-- **Community**: Discord integration for verified member access
-- **Analytics**: Privacy-respecting metrics for conversion optimization
+# Build for production
+npm run build
+
+# Run production build
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to experience the claims-based navigation system.
 
 ## 📋 Core Principles
 
@@ -45,31 +95,40 @@ All research methodologies, funding sources, and decision processes are publicly
 ### Impact
 We focus on research that creates measurable societal benefit. Every project must demonstrate clear pathways to positive real-world outcomes.
 
-## 🛠️ Technical Stack
+### Global Accessibility
+If SoSA only works for the privileged, we have failed. The farmer in Bangladesh must have the same sovereignty as the banker in Zurich.
 
-- **Design**: Dark mode (#0A0A0A) with accent color (#00D4FF)
-- **Typography**: Inter font family with dramatic size hierarchy
-- **Visualization**: WebGL/Three.js through React-globe.gl
-- **Forms**: Google Forms with custom styling
-- **Automation**: Google Apps Script + Make webhooks
-- **Hosting**: Static site with serverless functions
+## 🌍 Our Vision
 
-## 📊 Performance Targets
+### The Future We're Building
+A world where:
+- Policy recommendations serve humanity's collective interests
+- Research integrity is guaranteed by design, not trust
+- Every voice can contribute to shaping society
+- Transparency replaces backroom deals
+- Coordination supersedes competition
 
-- Page load: < 3 seconds
-- Time to Interactive: < 5 seconds
-- Mobile-first responsive design
-- 60fps animations on globe visualization
-- Accessibility: WCAG 2.1 AA compliance
+### Success Metrics
+We measure success not by traditional metrics but by freedom indicators:
+- **Attraction of Freedom Seekers**: Do people who yearn for freedom recognize SoSA as their path?
+- **Sovereignty Expansion**: How many people have transitioned from trapped existence to sovereign living?
+- **Government Evolution**: How many policies worldwide reflect our strategic advice?
+- **Information Integrity**: Is the global information ecosystem more truthful because of our infrastructure?
+
+## 🤝 Join Our Mission
+
+The Society of Societal Architects is more than a think tank—it's a movement to fundamentally reshape how humanity makes collective decisions. We invite researchers, policymakers, technologists, and citizens to join us in building this future.
+
+Together, we architect tomorrow.
+
+## 📚 Additional Documentation
+
+- **[Roadmap.md](./Roadmap.md)** - Detailed development roadmap and implementation plans
 
 ## 🤝 Contributing
 
-This documentation is part of the SOSA initiative to create transparent, incorruptible research infrastructure. Contributions should align with our core principles of independence, transparency, and impact.
+This project is part of the SoSA initiative to create transparent, incorruptible research infrastructure. Contributions should align with our core principles of independence, transparency, and impact.
 
 ## 📝 License
 
-The SOSA project operates under principles of open governance and transparent operations. Specific licensing details are available in the project repository.
-
----
-
-For detailed information on any aspect of the SOSA platform, please refer to the specific documentation files listed above.
+The SoSA project operates under principles of open governance and transparent operations. Specific licensing details are available in the project repository.

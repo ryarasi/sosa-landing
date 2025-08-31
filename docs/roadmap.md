@@ -1,307 +1,261 @@
-# SOSA Platform Roadmap & Implementation Guide
+# SoSA Development Roadmap
 
 ## Overview
 
-This comprehensive roadmap consolidates all aspects of building the Society of Societal Architects (SOSA) platform - from initial landing page to full decentralized think tank infrastructure.
+This roadmap outlines the development of the Society of Societal Architects (SoSA) from a landing page to a fully functional decentralized think tank platform that enables incorruptible research through transparent governance.
 
-## Phase 1: Landing Page Launch (Week 1-2)
+## Phase 1: Foundation Platform (Months 1-3)
 
-### 1.1 Design Implementation
-- **Visual Foundation**
-  - Dark background (#0A0A0A) establishing sophisticated tech aesthetic
-  - White primary text (#FFFFFF) for high contrast readability
-  - Monochromatic color scheme with selective accent usage
-  - Typography: Orbitron (headers), Exo 2 (body), Rajdhani (tagline)
+### 1.1 Landing Page & Community Building
+**Status: In Progress**
 
-- **Hero Section**
-  - Tagline: "Transparent. Future-Forward. Decentralized."
-  - Main headline: "Incorruptible research through decentralized governance"
-  - Subtitle emphasizing coordinated human civilization
-  - Interactive globe visualization as subtle background (0.3 opacity)
+- **Claims-Based Navigation System**
+  - Interactive exploration of SoSA's core principles
+  - 80+ interconnected claims about freedom and sovereignty
+  - Engaging user experience that educates while building interest
 
-- **Content Structure**
-  - Three principle cards: Independence, Transparency, Impact
-  - Single-action focus: "Request Early Access" CTA
-  - Progressive disclosure avoiding information overload
-  - Mobile-first responsive design
+- **Community Onboarding**
+  - Direct integration with Google Forms for waitlist
+  - Discord community access for verified members
+  - Email verification and automated workflows
 
-### 1.2 Technical Infrastructure
+- **Technical Foundation**
+  - Next.js 15.5 with TypeScript
+  - Tailwind CSS for responsive design
+  - Globe visualization for global coordination metaphor
+  - Privacy-compliant analytics
 
-#### Frontend Architecture
-- **Next.js 14 with App Router**
-  - Server components for optimal performance
-  - TypeScript for type safety
-  - CSS Modules or Tailwind for styling
-  - React-globe.gl for visualization
+### 1.2 Initial Governance Infrastructure
 
-#### Backend Services
-- **Form Submission Pipeline**
-  - Airtable for data storage (waitlist management)
-  - Resend API for email notifications
-  - Rate limiting and validation
-  - CORS configuration for API routes
+- **Basic Decision-Making Tools**
+  - Discord-based proposal system
+  - Simple voting mechanisms for community decisions
+  - Transparent discussion channels
+  - Member verification and role management
 
-#### Deployment
-- **Netlify Configuration**
-  - Automatic deployments from GitHub
-  - Environment variables for API keys
-  - Custom domain (sosa.live)
-  - SSL certificate provisioning
+- **Research Framework Setup**
+  - Initial research topic identification
+  - Methodology documentation standards
+  - Peer review process establishment
+  - Quality control mechanisms
 
-### 1.3 Globe Visualization Implementation
+## Phase 2: Decentralized Governance (Months 4-6)
+
+### 2.1 Blockchain Integration
+
+- **Smart Contract Development**
+  - Governance token implementation (merit-based, no ICO)
+  - Voting mechanisms with quadratic funding
+  - Proposal management system
+  - Treasury controls and fund allocation
 
 - **Technology Stack**
-  - React-globe.gl (built on Three.js/WebGL)
-  - 60fps GPU-accelerated rendering
-  - 20,000-60,000 dots using sunflower pattern
-  - Animated arc connections representing data flow
+  - Ethereum L2 (Arbitrum/Optimism) for cost efficiency
+  - IPFS for decentralized storage
+  - Multi-signature treasury management
+  - Cross-chain compatibility
 
-- **Performance Optimization**
-  - WebGL over Canvas for GPU acceleration
-  - Geometry instancing for merged meshes
-  - Responsive scaling based on device capabilities
-  - Simplified geometry for mobile devices
+### 2.2 Advanced Governance Features
 
-- **Visual Configuration**
-  - Auto-rotation: 0.1-0.5 degrees/second
-  - Node colors indicating connection strength
-  - Dash effects on arcs for movement illusion
-  - Minimal user interaction to maintain background role
+- **Weighted Voting System**
+  - Expertise-based vote weighting
+  - Contribution history tracking
+  - Anti-concentration mechanisms
+  - Time-locked decision implementation
 
-## Phase 2: Email Verification & Community Access (Week 3-4)
+- **Reputation System**
+  - Merit-based token distribution
+  - Decay mechanisms for unused governance power
+  - Multi-factor scoring (content, humanity, staking, social)
+  - Sybil resistance through economic costs
 
-### 2.1 Automated Workflow Design
+## Phase 3: Research Platform (Months 7-12)
 
-#### Email Verification Flow
-1. User submits form on landing page
-2. Data stored in Airtable with pending status
-3. Verification email sent via Resend
-4. Click verification link updates Airtable status
-5. Trigger Discord invite generation
-6. Send Discord invite to verified email
+### 3.1 Research Infrastructure
 
-#### Technical Implementation
-- **Airtable Configuration**
-  - Base: "SOSA Waitlist"
-  - Tables: Signups, Verifications, Invites
-  - Views: Pending, Verified, Invited
-  - Automations: Status updates, webhook triggers
-
-- **API Integration**
-  - Next.js API routes for form handling
-  - Webhook endpoints for verification
-  - Discord API for invite generation
-  - Rate limiting per IP address
-
-### 2.2 Security & Compliance
-
-- **Data Protection**
-  - Email encryption at rest
-  - GDPR compliance measures
-  - Privacy policy integration
-  - Data retention policies
-
-- **Anti-Abuse Measures**
-  - reCAPTCHA integration
-  - IP-based rate limiting
-  - Email domain validation
-  - Duplicate prevention
-
-## Phase 3: Community Platform Development (Month 2-3)
-
-### 3.1 Discord Integration
-
-#### Server Architecture
-- **Channel Structure**
-  - Welcome & onboarding
-  - Research discussions by topic
-  - Governance proposals
-  - Member introductions
-  - Announcement channels
-
-- **Role Management**
-  - Verified members (from waitlist)
-  - Contributors
-  - Researchers
-  - Governance participants
-  - Moderators
-
-- **Bot Development**
-  - Verification bot for new members
-  - Research proposal system
-  - Voting mechanisms
-  - Activity tracking
-
-### 3.2 Initial Governance Tools
-
-- **Proposal System**
-  - Research topic suggestions
-  - Methodology discussions
-  - Resource allocation requests
-  - Community guidelines
-
-- **Voting Infrastructure**
-  - Discord-based polls initially
-  - Weighted voting preparation
-  - Transparent result display
-  - Decision archiving
-
-## Phase 4: Decentralized Infrastructure (Month 4-6)
-
-### 4.1 Blockchain Integration
-
-#### Smart Contract Development
-- **Governance Contracts**
-  - Token distribution logic
-  - Voting mechanisms
-  - Proposal management
-  - Treasury controls
-
-- **Research Registry**
-  - Immutable research records
-  - Methodology versioning
-  - Contributor tracking
-  - Citation management
-
-#### Technology Choices
-- **Blockchain Platform**: Ethereum L2 (Arbitrum/Optimism)
-- **Development Framework**: Hardhat/Foundry
-- **Frontend Integration**: wagmi/viem
-- **IPFS**: Decentralized storage
-
-### 4.2 Token Model Implementation
-
-- **Distribution Mechanism**
-  - Merit-based earning only
-  - No ICO or public sale
-  - Contribution rewards
-  - Anti-concentration limits
-
-- **Utility Design**
-  - Governance voting power
-  - Research proposal rights
-  - Peer review participation
-  - Resource allocation influence
-
-## Phase 5: Research Platform Launch (Month 7-12)
-
-### 5.1 Research Infrastructure
-
-#### Collaborative Tools
-- **Document Management**
-  - Version control for research
-  - Collaborative editing
+- **Collaborative Research Tools**
+  - Version-controlled document management
   - Peer review workflows
-  - Citation management
+  - Data analysis and visualization
+  - Citation and methodology tracking
 
-- **Data Platform**
-  - Secure data storage
-  - Analysis tools integration
-  - Visualization capabilities
-  - Export functionality
-
-#### Quality Assurance
-- **Methodology Standards**
+- **Quality Assurance**
   - Reproducibility requirements
-  - Peer review processes
-  - Ethics guidelines
-  - Transparency mandates
+  - Transparent peer review processes
+  - Ethics guidelines and compliance
+  - Public audit trails
 
-### 5.2 Public Interface
+### 3.2 Public Research Portal
 
-- **Research Portal**
-  - Public research access
-  - Interactive visualizations
-  - Download capabilities
-  - API for developers
+- **Open Access Platform**
+  - Public research publication
+  - Interactive data visualizations
+  - API for developers and researchers
+  - Real-world impact tracking
 
-- **Impact Tracking**
-  - Real-world implementation monitoring
+- **Policy Integration**
+  - Government advisory relationships
   - Policy influence measurement
-  - Community feedback loops
-  - Success metrics dashboard
+  - Implementation monitoring
+  - Feedback loops with communities
+
+## Phase 4: Global Expansion (Year 2-3)
+
+### 4.1 Physical Infrastructure
+
+- **SoSA Centers Development**
+  - Physical freedom centers across continents
+  - Sovereignty infrastructure spaces
+  - Local community hubs
+  - Research collaboration facilities
+
+- **Global Network**
+  - Centers in major cities worldwide
+  - Local governance adaptation
+  - Cultural integration strategies
+  - Regional research priorities
+
+### 4.2 Government Advisory Services
+
+- **Strategic Intelligence**
+  - Policy recommendation systems
+  - Evidence-based advisory services
+  - Government relationship building
+  - Implementation tracking
+
+- **Influence Through Excellence**
+  - Undeniable research quality
+  - Transparent methodology
+  - Measurable impact demonstration
+  - Adoption through merit
+
+## Phase 5: Mature Ecosystem (Year 3-10)
+
+### 5.1 Full Decentralization
+
+- **Complete Autonomy**
+  - Self-governing research platform
+  - Automated incentive systems
+  - Community-driven evolution
+  - Minimal human intervention
+
+- **Global Impact**
+  - Widespread policy influence
+  - Recognized research authority
+  - Standard-setting for transparency
+  - Model for other institutions
+
+### 5.2 Sovereignty Infrastructure
+
+- **Individual Empowerment**
+  - Personal sovereignty tools
+  - Economic independence systems
+  - Educational resources
+  - Community support networks
+
+- **Collective Intelligence**
+  - Advanced coordination mechanisms
+  - Predictive governance models
+  - Real-time adaptation systems
+  - Continuous improvement loops
+
+## Implementation Timeline
+
+### Year 1-2: Foundation
+- Launch core governance infrastructure
+- Establish first physical centers
+- Prove information integrity mechanisms
+- Attract initial thousand sovereigns
+- Build research methodology standards
+- Create transparent decision-making processes
+
+### Year 3-5: Expansion
+- Centers on every continent
+- Government advisory relationships
+- Millions participating in governance
+- Measurable freedom indicators rising
+- Advanced blockchain integration
+- Cross-chain governance capabilities
+
+### Year 6-10: Transformation
+- Distributed governance becomes normal
+- Physical centers in every major city
+- Government policies globally aligned
+- Information integrity as default standard
+- Human sovereignty as lived reality
+- Complete decentralization achieved
 
 ## Technical Specifications
 
-### API Keys & Environment Variables
+### Current Architecture
+- **Framework**: Next.js 15.5 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Backend**: API routes with Airtable integration
+- **Community**: Discord integration
+- **Analytics**: Microsoft Clarity (privacy-compliant)
 
-```env
-# Airtable Configuration
-AIRTABLE_API_KEY=your_api_key_here
-AIRTABLE_BASE_ID=your_base_id_here
-AIRTABLE_TABLE_NAME=Signups
-
-# Resend Email Service
-RESEND_API_KEY=your_resend_api_key_here
-RESEND_FROM_EMAIL=hello@sosa.live
-
-# Site Configuration
-NEXT_PUBLIC_SITE_URL=https://sosa.live
-NEXT_PUBLIC_SITE_NAME=SOSA
-
-# Discord Integration (Phase 2)
-DISCORD_BOT_TOKEN=your_bot_token_here
-DISCORD_GUILD_ID=your_server_id_here
-```
+### Future Architecture
+- **Blockchain**: Ethereum L2 (Arbitrum/Optimism)
+- **Storage**: IPFS for active data, Arweave for permanent archival
+- **Governance**: Smart contracts with timelock mechanisms
+- **Identity**: NFT-based membership with Sybil resistance
+- **Treasury**: Multi-signature management (5 of 9 guardians)
 
 ### Performance Targets
-
 - **Page Load**: < 3 seconds on 3G
 - **Time to Interactive**: < 5 seconds
 - **Lighthouse Score**: > 90 across all metrics
 - **Accessibility**: WCAG 2.1 AA compliance
 - **Mobile Performance**: 60fps animations
 
-### Monitoring & Analytics
-
-- **Technical Metrics**
-  - Server response times
-  - API latency tracking
-  - Error rate monitoring
-  - Resource utilization
-
-- **User Metrics**
-  - Conversion rates
-  - Engagement tracking
-  - Geographic distribution
-  - Device analytics
-
 ## Success Metrics
 
-### Phase 1 (Landing Page)
-- 1,000+ waitlist signups in first month
-- < 3% bounce rate
-- > 2 minute average session duration
-- 90+ Lighthouse performance score
+### Phase 1 (Foundation)
+- 1,000+ community members in first year
+- Active Discord participation (50+ daily users)
+- Research proposal submissions (10+ monthly)
+- High engagement rates (> 2 minute sessions)
 
-### Phase 2 (Community)
-- 70% email verification rate
-- 500+ Discord members
-- 50+ daily active users
-- 10+ research proposals submitted
-
-### Phase 3-5 (Platform)
+### Phase 2-3 (Growth)
 - 100+ contributing researchers
 - 10+ completed research projects
 - 1,000+ governance participants
 - Measurable policy impact documented
+- Government advisory relationships established
+
+### Phase 4-5 (Maturity)
+- Global recognition as research authority
+- Widespread policy influence
+- Self-sustaining governance ecosystem
+- Demonstrated sovereignty infrastructure
+- Model for institutional transformation
 
 ## Risk Mitigation
 
 ### Technical Risks
-- **Scalability**: Design for 10x growth from day one
+- **Scalability**: Design for exponential growth from day one
 - **Security**: Regular audits and penetration testing
-- **Reliability**: 99.9% uptime target with redundancy
+- **Decentralization**: Prevent single points of failure
 - **Performance**: Continuous optimization and monitoring
 
-### Community Risks
-- **Governance Capture**: Decentralized decision-making
-- **Quality Control**: Rigorous peer review processes
-- **Sustainability**: Diverse funding sources
-- **Engagement**: Gamification and recognition systems
+### Governance Risks
+- **Capture Prevention**: No central authority control mechanisms
+- **Quality Assurance**: Rigorous peer review and validation
+- **Sustainability**: Merit-based token economics
+- **Participation**: Inclusive global accessibility
 
-## Conclusion
+## Our Commitment
 
-This roadmap transforms SOSA from concept to functioning decentralized think tank over 12 months. Each phase builds on previous achievements while maintaining focus on the core mission: incorruptible research through decentralized governance for societal benefit.
+We are committed to:
+- **Truth**: Pursuing objective reality over convenient narratives
+- **Openness**: Making all processes visible and auditable
+- **Impact**: Focusing on research that improves lives
+- **Inclusivity**: Enabling global participation in governance
+- **Innovation**: Pioneering new models of collective intelligence
 
-The modular approach allows for iteration and community feedback while ensuring technical robustness and sustainable growth. Success depends on balancing ambitious vision with pragmatic implementation, always keeping the community's needs at the center of development decisions.
+## The Future We're Building
+
+A world where policy recommendations serve humanity's collective interests, research integrity is guaranteed by design, every voice can contribute to shaping society, transparency replaces backroom deals, and coordination supersedes competition.
+
+This is not a project. This is not a company. This is not even a movement. This is the architecture of human liberation.

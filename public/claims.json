@@ -2,44 +2,44 @@
   {
     "id": "sosa-001",
     "type": "core",
-    "claim": "We are the <a data-claim=\"sosa-002\">Society of Societal Architects</a>",
+    "claim": "The vast majority of human beings want a world that is <a data-claim=\"sosa-002\">fair, safe and a reliable base</a> to build a lasting future for themselves",
     "category": "identity"
   },
   {
     "id": "sosa-002",
-    "type": "definition",
-    "claim": "A <a data-claim=\"sosa-003\">decentralized think tank</a> architecting the <a data-claim=\"sosa-004\">freedom infrastructure</a> for <a data-claim=\"sosa-005\">unified human civilization</a>",
+    "type": "question",
+    "claim": "But who decides what is fair? Who decides what is progress and what is not? <a data-claim=\"sosa-003\">For the first time in human history</a> we now have the ability for large numbers of individuals to collaborate and act with a unified vision",
     "category": "identity"
   },
   {
     "id": "sosa-003",
-    "type": "principle",
-    "claim": "Decentralized governance means <a data-claim=\"sosa-006\">no single entity</a> controls our direction",
-    "category": "governance"
+    "type": "solution",
+    "claim": "<a data-claim=\"sosa-004\">SoSA is a decentralized think tank</a> designed to maximize the collaborative efficiency of all those who aspire to build a prosperous future",
+    "category": "identity"
   },
   {
     "id": "sosa-004",
-    "type": "vision",
-    "claim": "Freedom infrastructure enables every individual to be their <a data-claim=\"sosa-007\">own sovereign leader</a>",
-    "category": "freedom"
+    "type": "principle",
+    "claim": "What makes SoSA unique is that <a data-claim=\"sosa-005\">every aspect of the functioning of SoSA is transparent</a> and <a data-claim=\"sosa-006\">no central authority</a> decides the course of our enquiry or the outcomes of our research",
+    "category": "governance"
   },
   {
     "id": "sosa-005",
-    "type": "vision",
-    "claim": "A unified human civilization where <a data-claim=\"sosa-008\">sovereignty</a> and <a data-claim=\"sosa-009\">coordination</a> coexist",
-    "category": "civilization"
+    "type": "foundation",
+    "claim": "After all, our <a data-claim=\"sosa-007\">collective understanding of reality</a> is a foundational requirement for us to be able to respond to it effectively",
+    "category": "philosophy"
   },
   {
     "id": "sosa-006",
     "type": "principle",
-    "claim": "The moment any individual or group gains controlling influence, <a data-claim=\"sosa-010\">we have failed</a>",
+    "claim": "No central authority decides the course of our enquiry or the outcomes of our research - <a data-claim=\"sosa-010\">transparency replaces control</a>",
     "category": "governance"
   },
   {
     "id": "sosa-007",
-    "type": "belief",
-    "claim": "Technology now enables <a data-claim=\"sosa-011\">individual sovereignty</a> without sacrificing <a data-claim=\"sosa-012\">societal participation</a>",
-    "category": "freedom"
+    "type": "foundation",
+    "claim": "Our collective understanding of reality is a foundational requirement for us to be able to <a data-claim=\"sosa-011\">respond to it effectively</a>",
+    "category": "philosophy"
   },
   {
     "id": "sosa-008",
