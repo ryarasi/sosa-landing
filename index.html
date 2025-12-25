@@ -415,63 +415,7 @@
             <h2>Join the Movement</h2>
             <p class="waitlist-subtitle">Be part of the first decentralized think tank shaping tomorrow's policies</p>
             
-            <form class="waitlist-form" id="waitlistForm">
-                <div class="form-group">
-                    <label for="name">Full Name *</label>
-                    <input type="text" id="name" name="name" required minlength="2" placeholder="John Doe">
-                    <div class="form-error" id="nameError">Please enter your full name</div>
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Email Address *</label>
-                    <input type="email" id="email" name="email" required placeholder="john@example.com">
-                    <div class="form-error" id="emailError">Please enter a valid email address</div>
-                </div>
-
-                <div class="form-group">
-                    <label for="country">Country *</label>
-                    <select id="country" name="country" required>
-                        <option value="">Select your country</option>
-                        <option value="US">United States</option>
-                        <option value="GB">United Kingdom</option>
-                        <option value="CA">Canada</option>
-                        <option value="AU">Australia</option>
-                        <option value="IN">India</option>
-                        <option value="DE">Germany</option>
-                        <option value="FR">France</option>
-                        <option value="ES">Spain</option>
-                        <option value="IT">Italy</option>
-                        <option value="JP">Japan</option>
-                        <option value="KR">South Korea</option>
-                        <option value="CN">China</option>
-                        <option value="BR">Brazil</option>
-                        <option value="MX">Mexico</option>
-                        <option value="NL">Netherlands</option>
-                        <option value="SE">Sweden</option>
-                        <option value="CH">Switzerland</option>
-                        <option value="SG">Singapore</option>
-                        <option value="AE">United Arab Emirates</option>
-                        <option value="OTHER">Other</option>
-                    </select>
-                    <div class="form-error" id="countryError">Please select your country</div>
-                </div>
-
-                <div class="form-group">
-                    <label for="reason">Why do you wish to join SoSA? *</label>
-                    <textarea id="reason" name="reason" required minlength="50" placeholder="Tell us about your interest in decentralized governance and how you hope to contribute to our mission... (minimum 50 characters)"></textarea>
-                    <div class="form-error" id="reasonError">Please provide at least 50 characters explaining your interest</div>
-                </div>
-
-                <button type="submit" class="form-submit" id="submitBtn">
-                    <span id="submitText">Request Access</span>
-                    <span class="loading" id="submitLoading" style="display: none;"></span>
-                </button>
-            </form>
-
-            <div class="form-success" id="successMessage">
-                <h3>Welcome to SoSA!</h3>
-                <p>Thank you for your interest. We'll review your application and send you an invitation soon.</p>
-            </div>
+            <a href="https://forms.gle/vyLxPKGfn6GyBPHt5" target="_blank" rel="noopener noreferrer" class="cta-button">Join Waitlist</a>
         </div>
     </section>
 
@@ -557,80 +501,6 @@
         }
         
         animateParticles();
-
-        // Form validation and submission
-        const form = document.getElementById('waitlistForm');
-        const submitBtn = document.getElementById('submitBtn');
-        const submitText = document.getElementById('submitText');
-        const submitLoading = document.getElementById('submitLoading');
-        const successMessage = document.getElementById('successMessage');
-
-        form.addEventListener('submit', async (e) => {
-            e.preventDefault();
-            
-            // Reset errors
-            document.querySelectorAll('.form-error').forEach(error => {
-                error.style.display = 'none';
-            });
-
-            // Validate
-            let isValid = true;
-            
-            const name = document.getElementById('name').value.trim();
-            if (name.length < 2) {
-                document.getElementById('nameError').style.display = 'block';
-                isValid = false;
-            }
-
-            const email = document.getElementById('email').value.trim();
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            if (!emailRegex.test(email)) {
-                document.getElementById('emailError').style.display = 'block';
-                isValid = false;
-            }
-
-            const country = document.getElementById('country').value;
-            if (!country) {
-                document.getElementById('countryError').style.display = 'block';
-                isValid = false;
-            }
-
-            const reason = document.getElementById('reason').value.trim();
-            if (reason.length < 50) {
-                document.getElementById('reasonError').style.display = 'block';
-                isValid = false;
-            }
-
-            if (!isValid) return;
-
-            // Show loading state
-            submitBtn.disabled = true;
-            submitText.style.display = 'none';
-            submitLoading.style.display = 'inline-block';
-
-            // Submit to Google Forms
-            const formData = new FormData();
-            formData.append('entry.123456789', name); // Replace with actual entry IDs
-            formData.append('entry.987654321', email);
-            formData.append('entry.456789123', country);
-            formData.append('entry.789123456', reason);
-
-            try {
-                // For now, just show success since we need the actual Google Form entry IDs
-                await new Promise(resolve => setTimeout(resolve, 2000)); // Simulate API call
-                
-                // Show success
-                form.style.display = 'none';
-                successMessage.style.display = 'block';
-            } catch (error) {
-                console.error('Submission error:', error);
-                alert('An error occurred. Please try again later.');
-            } finally {
-                submitBtn.disabled = false;
-                submitText.style.display = 'inline';
-                submitLoading.style.display = 'none';
-            }
-        });
 
         // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
